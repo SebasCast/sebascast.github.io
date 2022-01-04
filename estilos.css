@@ -8,7 +8,7 @@ body {
 	padding: 0;
 	background: #07080a;
 	color: #FFFFFF;
-  transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
 
 p {
@@ -41,8 +41,11 @@ li {
 .lista {
 	display: flex;
 }
-.menu .lista a:hover, .menu .lista a:focus, .menu .lista a:active {
-  color: #7bbaff;
+
+.menu .lista a:hover,
+.menu .lista a:focus,
+.menu .lista a:active {
+	color: #7bbaff;
 }
 
 a {
@@ -75,25 +78,28 @@ a {
 	text-shadow: none;
 	margin: 0 10px;
 	border-radius: 5px;
-  transition: all 0.5s ease-out;
+	transition: all 0.5s ease-out;
 }
 
 .btn-primary {
 	background: #1c126c;
-  margin-left: 0;
-  border: 1px solid #1c126c;
+	margin-left: 0;
+	border: 1px solid #1c126c;
 }
+
 .btn-primary:hover {
-  background: #0c0358;
-  border: 1px solid #0c0358;
+	background: #0c0358;
+	border: 1px solid #0c0358;
 }
+
 .btn-secondary {
 	border: 1px solid #fff;
-  margin-right: 0;
+	margin-right: 0;
 }
-.btn-secondary:hover{
-  background: #107aed;
-  border: 1px solid #107aed;
+
+.btn-secondary:hover {
+	background: #107aed;
+	border: 1px solid #107aed;
 }
 
 header {
@@ -188,12 +194,12 @@ h3 {
 	padding-top: 150px;
 	padding-bottom: 150px;
 	text-align: center;
-  background: linear-gradient(180deg, rgba(7, 8, 10, 1) 0%, rgba(7, 8, 10, 0.3799894957983193) 15%), url(fondo2.jpg);
+	background: linear-gradient(180deg, rgba(7, 8, 10, 1) 0%, rgba(7, 8, 10, 0.3799894957983193) 15%), url(fondo2.jpg);
 	height: 50vh;
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-  background-attachment: fixed;
+	background-attachment: fixed;
 }
 
 
@@ -227,36 +233,41 @@ h3 {
 .instagram {
 	margin: 10px
 }
+
 a.whatsapp i {
-  font-size: 3.2rem!important;
-  background: #26d469;
-  padding: 8px 8px 9px 8px;
-  width: 50px;
-  height: 50px;
-  border-radius: 10px;
-  text-align: center;
-  transition: all 0.5s ease-out;
+	font-size: 3.2rem!important;
+	background: #26d469;
+	padding: 8px 8px 9px 8px;
+	width: 50px;
+	height: 50px;
+	border-radius: 10px;
+	text-align: center;
+	transition: all 0.5s ease-out;
 }
-a.whatsapp i:hover{
-  background: #1fbf5c;
+
+a.whatsapp i:hover {
+	background: #1fbf5c;
 }
+
 a.whatsapp {
-  position: fixed;
-  bottom: 50px;
-  right: 50px;
+	position: fixed;
+	bottom: 50px;
+	right: 50px;
 }
+
 @media only screen and (max-width: 1360px) {
-  header{
-    background-position-y: 90%;
-  }
+	header {
+		background-position-y: 90%;
+	}
 }
+
 @media only screen and (max-width: 768px) {
 	body {
 		padding: 0 17px;
 	}
 	h1 {
 		line-height: 1.2;
-		font-size:55px;
+		font-size: 55px;
 	}
 	h3 {
 		line-height: 1.25;
@@ -290,8 +301,8 @@ a.whatsapp {
 		padding: 18px;
 		text-align: center;
 		font-size: 1.1rem;
-		margin-left:0;
-		margin-right:0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 	header {
 		height: 100%;
@@ -303,10 +314,11 @@ a.whatsapp {
 	.section {
 		padding: 30px 0px;
 	}
-  .section .contenedor-sobremi{
-    flex-direction: column-reverse!important;
-  }
-	.contenedor, #sobre-mi .contenedor {
+	.section .contenedor-sobremi {
+		flex-direction: column-reverse!important;
+	}
+	.contenedor,
+	#sobre-mi .contenedor {
 		flex-direction: column!important;
 	}
 	.contenedor img {
@@ -317,14 +329,14 @@ a.whatsapp {
 	}
 	.servicio {
 		width: 100%;
-		padding:35px 0 15px 0;
+		padding: 35px 0 15px 0;
 		margin: 20px ​auto auto auto;
 	}
 	.servicio h4 {
-    margin: 10px 20px;
-    width: 90%;
-    word-break: break-word;
-    font-size: 27px;
+		margin: 10px 20px;
+		width: 90%;
+		word-break: break-word;
+		font-size: 27px;
 	}
 	.contenedor-servicios img {
 		width: 30%;
@@ -337,12 +349,12 @@ a.whatsapp {
 	.contactame {
 		padding-top: 30px;
 		padding-bottom: 20px;
-    background-attachment: initial;
+		background-attachment: initial;
 	}
-  .Titulo2.contenedor-parrafo-y-boton {
-    padding-top: 150px;
-  }
-  a.whatsapp {
-    right: 30px;
-  }
+	.Titulo2.contenedor-parrafo-y-boton {
+		padding-top: 150px;
+	}
+	a.whatsapp {
+		right: 30px;
+	}
 }
