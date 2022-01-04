@@ -256,6 +256,7 @@ a.whatsapp {
 	}
 	h1 {
 		line-height: 1.2;
+		font-size:55px;
 	}
 	h3 {
 		line-height: 1.25;
@@ -289,6 +290,8 @@ a.whatsapp {
 		padding: 18px;
 		text-align: center;
 		font-size: 1.1rem;
+		margin-left:0;
+		margin-right:0;
 	}
 	header {
 		height: 100%;
