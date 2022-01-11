@@ -20,6 +20,13 @@ li {
 	margin-right: 25px
 }
 
+#sobre-mi img {
+    width: 300px!important;
+    height: 300px!important;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 #primero {
 	font-size: 30px;
 }
